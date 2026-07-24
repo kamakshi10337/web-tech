@@ -1,0 +1,30 @@
+ .container{
+    height:600px;
+    width:800px;
+    background-color:rgb(214, 196, 255);
+    box-shadow:4px 4px 5px red;
+    margin:50px auto;
+    border:2px solid pink;
+    display: flex;
+    gap :30px;
+    /* main axis */
+    flex-direction:row;
+    /* justify-content:space-around;
+    align-items:start;  */
+    /* cross axis */
+    flex-wrap:wrap;
+    align-content:space-around;
+    /* column-gap: 50px; */
+    row-gap: 50px;
+
+ }
+ .box{
+    height:100px;
+    width:100px;
+    background-color: brown;
+    border:20px dotted black;
+    border-radius: 20px;
+    font-size: 4em;
+    text-shadow:4px 4px 5px;
+
+ }

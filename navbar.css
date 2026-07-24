@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+.nav{
+    height:60px;
+    position:sticky;
+    top:0;
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    color:blanchedalmond;
+    text-shadow: 3px 3px 6px black;
+}
+ul{
+    list-style:none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 1em;
+    color:burlywood;
+    text-shadow: 2px 2px 2px cornsilk;
+    font-weight:bold;
+}
+.menu{
+    display:flex;
+    gap:30px;
+    flex-direction: row;
+}
